@@ -1,7 +1,7 @@
-import address from "./addValidator";
-import chainInfo from "./getChainInfo";
+import addValidator from "./addValidator.js";
+import getChainInfo from "./getChainInfo.js";
 
 export default {
-	address,
-	chainInfo,
+	addValidator,
+	getChainInfo,
 };

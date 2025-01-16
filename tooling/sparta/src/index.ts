@@ -5,7 +5,7 @@ import {
 	Interaction,
 	MessageFlags,
 } from "discord.js";
-import { deployCommands } from "./deploy-commands";
+import { deployCommands } from "./deploy-commands.js";
 import commands from "./commands/index.js";
 import {
 	BOT_TOKEN,
